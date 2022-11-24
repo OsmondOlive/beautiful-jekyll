@@ -92,7 +92,7 @@ social-network-links:
   email: "stonelion777@gmail.com"
   #rss: true  # remove this line if you don't want to show an RSS link at the bottom
  # facebook: "https://www.facebook.com/leonardo.olivieri.507"
-  github: "https://github.com/blogdoleo"
+  github: "https://github.com/OsmondOlive"
   #twitter: daattali
   #patreon: DeanAttali
   youtube: "https://www.youtube.com/channel/UCFLt1Vwg-OGsaI6YhOS3rBQ"
@@ -134,7 +134,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://blogdoleonard.com/"
+url-pretty: "osmondolive.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -272,7 +272,7 @@ gtm: "GMT-MDCFMRC"
 # See more details about giscus and each of the following parameters at https://giscus.app
 giscus:
   hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-  repository: "blogdoleo/blogdoleo.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository: "OsmondOlive/osmondolive.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   repository-id: "R_kgDOIc-vVQ" # ID of your repository, retrieve this info from https://giscus.app
   category: "General" # Category name of your GitHub Discussion posts
   category-id: "DIC_kwDOIc-vVc4CSpab" # ID of your category, retrieve this info from https://giscus.app
