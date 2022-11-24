@@ -13,18 +13,58 @@
 title: Blog do Leo
 
 # Your name to show in the footer
-author: Leonardo Carvalho
+author: Leonardo Olivieri Carvalho
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Sobre o autor: "aboutme"
+  Criação de Jogos:
+    - Como criar jogos digitais?: "comocriarjogosdigitais"
+    - É necessário um GDD?: "enecessarioumgdd"
+    - Arte conceitual: "arteconceitual"
+    - Animação 2D: "animacao2d"
+    - Modelagem 3D: "modelagem3d"
+    - Animação 3D: "animacao3d"
+    - Texturização: "texturizacao"
+    - Programação: "programacao"
+    - Motores para criação de jogos: "programacao"
+    - Interface de usuário: "interfacedeusuario"
+    - Cenas: "cenas"
+    - Controles: "controles"
+    - Mecânicas: "mecanicas"
+    - Iluminação: "iluminacao"
+    - Efeitos visuais: "efeitosvisuais"
+    - Sons: "sons"
+    - Marketing: "marketing"
+    - Publicação: "publicacao"
+    - Monetização: "monetizacao"
+  Criação de Assets:
+    - O que são os assets para jogos?: "oquesaoassets"
+    - Alguns exemplos de assets: "exemplosdeassets"
+    - Como criar um asset 3D animado?: "comocriarasset3danimado"
+    - Onde posso publicar os meus _assets_?: "ondepossopublicarmeusassets"
+  Criação de Sites:
+    - Como por no ar um site grátis: "comopornoarumsitegratis"
+    - Como utilizar templates e onde encontrar: "comoutilizartemplates"
+  Biologia:
+    - O que é Biologia?: "oqueebiologia"
+    - Origem da vida na Terra: "origemdavidanaterra"
+    - Vírus: "virus"
+    - Células: "celulas"
+    - Microorganismos: "microorganismos"
+    - Plantas: "plantas"
+    - Fungos: "fungos"
+    - Animais: "animais"
+    - Corpo humano: "corpohumano"
+    - Profissionais que estudam biologia: "profissionaisqueestudambiologia"
+  Espiritualidade:
+    - Quem é Jesus Cristo?: "quemejesuscristo"
+    - A teoria da evolução pode estar na Bíblia Sagrada?: "evolucaonabiblia"
+  Tags:
+    - Tags: "tags"
 
 ################
 # --- Logo --- #
@@ -32,14 +72,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# avatar: "/assets/img/logo-2_.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/logo_blogdoleo.png"
 
 
 #####################################
@@ -49,13 +89,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "stonelion777@gmail.com"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+ # facebook: "https://www.facebook.com/leonardo.olivieri.507"
+  github: "https://github.com/blogdoleo"
+  #twitter: daattali
+  #patreon: DeanAttali
+  youtube: "https://www.youtube.com/channel/UCFLt1Vwg-OGsaI6YhOS3rBQ"
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -65,7 +105,7 @@ social-network-links:
 #  instagram: deanat78
 #  spotify: yourname
 #  telephone: +14159998888
-#  steam: deanat78
+  steam: "https://steamcommunity.com/profiles/76561198864559851"
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
@@ -73,13 +113,13 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: invite/invite_code or users/userid 
+  discord: "invite/invite_code or users/userid"
 #  kaggle: yourname
 #  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -94,7 +134,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "http://blogdoleonard.com/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -109,7 +149,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -117,7 +157,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "blog,leo,espiritualidade,criação de jogos, jogos digitais,criação de jogos digitais,programação,criação de assets para jogos,jogos digitais,assets,asset,wing,3D,2D,arte conceitual,arte,unity,unreal,GDD,design,game,criação,evolução,bíblia,engine,game engine,blender,animação,iluminação,monetização,biologia,genesis,c#,python,c++,blueprint,blueprints,mesh,props,uv,texturas,textura,texturização,modelage,produtos digitais,produto digital"
 
 ######################################
 # --- Colours / background image --- #
@@ -125,23 +165,23 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: "#301806"
+navbar-text-col: "#e27450"
+navbar-border-col: "#e27450"
+page-col: "#00273f"
+text-col: "#ffeaa9"
+link-col: "#fed647"
+hover-col: "#00ff00"
+footer-col: "#00273f"
+footer-text-col: "#e27450"
+footer-link-col: "#b05131"
+footer-hover-col: "#00ff00"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/footer_bgimg_3.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
@@ -154,6 +194,15 @@ footer-hover-col: "#0085A1"
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
 #  - "/assets/js/custom-script.js"
+# - "/assets/js/botao.js"
+#- "/assets/js/discobackground.js"
+#- "/assets/js/fader.js"
+#- "/assets/js/fader2.js"
+#- "/assets/js/funcoes.js"
+#- "/assets/js/htmltooltip.js"
+#- "/assets/js/jquery-1.2.2.pack.js"
+#- "/assets/js/jseyes.js"
+
 
 #################################
 # --- Web Analytics Section --- #
@@ -163,13 +212,13 @@ footer-hover-col: "#0085A1"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+google_analytics: "G-FB1TX9TM1M"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GMT-MDCFMRC"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -221,16 +270,17 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+giscus:
+  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+  repository: "blogdoleo/blogdoleo.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository-id: "R_kgDOIc-vVQ" # ID of your repository, retrieve this info from https://giscus.app
+  category: "General" # Category name of your GitHub Discussion posts
+  category-id: "DIC_kwDOIc-vVc4CSpab" # ID of your category, retrieve this info from https://giscus.app
+  mapping: "title"
+  reactions-enabled: 1
+  emit-metadata: 0
+  input-position: "bottom"
+  theme: "preferred_color_scheme"
 
 ################
 # --- Misc --- #
@@ -275,14 +325,13 @@ defaults:
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
-  - CNAME
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - screenshot.png
-  - docs/
-
+  
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
