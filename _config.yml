@@ -90,7 +90,7 @@ title-img: "/assets/img/logo_blogdoleo.png"
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "stonelion777@gmail.com"
-  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
  # facebook: "https://www.facebook.com/leonardo.olivieri.507"
   github: "https://github.com/OsmondOlive"
   #twitter: daattali
@@ -113,7 +113,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  discord: "invite/invite_code or users/userid"
+  discord: "Dr.Carvalho#2557"
 #  kaggle: yourname
 #  hackerrank: yourname
 
