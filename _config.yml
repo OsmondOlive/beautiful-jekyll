@@ -270,10 +270,11 @@ gtm: "GMT-MDCFMRC"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
+
 giscus:
   hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
   repository: "OsmondOlive/osmondolive.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  repository-id: "R_kgDOIc-vVQ" # ID of your repository, retrieve this info from https://giscus.app
+  repository-id: "R_kgDOIc9JSA" # ID of your repository, retrieve this info from https://giscus.app
   category: "General" # Category name of your GitHub Discussion posts
   category-id: "DIC_kwDOIc-vVc4CSpab" # ID of your category, retrieve this info from https://giscus.app
   mapping: "title"
@@ -281,6 +282,8 @@ giscus:
   emit-metadata: 0
   input-position: "bottom"
   theme: "preferred_color_scheme"
+  data-lang:"pt"
+  crossorigin:"anonymous"
 
 ################
 # --- Misc --- #
